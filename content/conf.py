@@ -42,8 +42,7 @@ extensions = [
 
 if 'pdf' in tags:
     # Use imgmath for PDF output
-    #extensions.append("sphinx.ext.imgmath")
-    pass
+    extensions.append("sphinx.ext.imgmath")
 
 # Settings for myst_nb:
 # https://myst-nb.readthedocs.io/en/latest/use/execute.html#triggering-notebook-execution
